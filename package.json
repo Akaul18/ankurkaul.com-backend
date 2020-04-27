@@ -1,0 +1,15 @@
+{
+  "name": "ankurkaul-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kaul <ankurkaul1894@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node-dev index"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
