@@ -1,9 +1,10 @@
+const { readFile } = require('fs')
 const express = require('express')
-const pro = require('./projects.json');
+const projects = require('./projects.json')
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.json(pro)
+    res.json(projects)
 })
 
 module.exports = router;
