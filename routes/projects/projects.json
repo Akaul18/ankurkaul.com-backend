@@ -3,8 +3,8 @@
         {
             "id": 1,
             "title": "instock",
-            "imgTitleDesktop": "instock.png",
-            "imgTitleMobile": "instock-mobile.png",
+            "imgTitleDesktop": "instock.jpg",
+            "imgTitleMobile": "instock-mobile.jpg",
             "shortDesc": "Grocery price matching web app",
             "desc": "InStock is a web application which provides a platform to users to compare grocery prices based up on their location.Users are shown nearby stores based on their search item",
             "github": "https://github.com/Akaul18/grocery-price-match"
@@ -12,8 +12,8 @@
         {
             "id": 2,
             "title": "fund4u",
-            "imgTitleDesktop": "fund4u.png",
-            "imgTitleMobile": "fund4u-mobile.png",
+            "imgTitleDesktop": "fund4u.jpg",
+            "imgTitleMobile": "fund4u-mobile.jpg",
             "shortDesc": "Crowdfunding platform with reward based model",
             "desc": "Fund4u is a crowd funding platform which works on a reward-based model. The maximum fund raise amount can go up to $20,000 CAD.As a business model for this app only 1% commission fee is charged and if projects that have an unsuccessful campaign in raising money, the backers(or donors) get a full refund.",
             "github": "https://github.com/Akaul18/fund4u",
@@ -22,8 +22,8 @@
         {
             "id": 3,
             "title": "hospicheck",
-            "imgTitleDesktop": "hospicheck.png",
-            "imgTitleMobile": "hospicheck-mobile.png",
+            "imgTitleDesktop": "hospicheck.jpg",
+            "imgTitleMobile": "hospicheck-mobile.jpg",
             "shortDesc": "hospital/clinics comparison web app",
             "desc": "The idea of Hospicheck is to provide a platform to public which helps them to find the best recommended hospital or a walk-in clinic according to their search preference.The project offers 3 features: Search, Filter and Compare.The system is developed to give search results based on user reviews. The search is limited to lower mainland of British Columbia.Filter search on the basis of location, speciality and disease.User can also compare two hospitals/walk-in on various parameters.The project is completely data driven and data is visualised to give a better user experience.",
             "github": "https://github.com/Akaul18/hospital-comparison-frontend",
@@ -32,8 +32,8 @@
         {
             "id": 4,
             "title": "bizcon",
-            "imgTitleDesktop": "bizcon.png",
-            "imgTitleMobile": "bizcon-mobile.png",
+            "imgTitleDesktop": "bizcon.jpg",
+            "imgTitleMobile": "bizcon-mobile.jpg",
             "shortDesc": "Services marketplace android app",
             "desc": "Bizcon is a data driven platform that connects customers and businesses with community driven features to help them link with small businesses and start a conversation.",
             "github": "https://github.com/Akaul18/bizcon",
@@ -42,8 +42,8 @@
         {
             "id": 5,
             "title": "movies-app",
-            "imgTitleDesktop": "movies-app.png",
-            "imgTitleMobile": "movies-app-mobile.png",
+            "imgTitleDesktop": "movies-app.jpg",
+            "imgTitleMobile": "movies-app-mobile.jpg",
             "shortDesc": "Search movies/tv shows based upon specific category",
             "desc": "It's an application to search latest and also upcoming movies & TV series. This application uses external API “themoviesdb” to fetch real-time updates of movies.",
             "github": "https://github.com/Akaul18/movies-app-react",
