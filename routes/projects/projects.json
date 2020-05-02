@@ -7,7 +7,8 @@
             "imgTitleMobile": "instock-mobile.jpg",
             "shortDesc": "Grocery price matching web app",
             "desc": "InStock is a web application which provides a platform to users to compare grocery prices based up on their location.Users are shown nearby stores based on their search item",
-            "github": "https://github.com/Akaul18/grocery-price-match"
+            "github": "https://github.com/Akaul18/grocery-price-match",
+            "website": ""
         },
         {
             "id": 2,
@@ -17,7 +18,7 @@
             "shortDesc": "Crowdfunding platform with reward based model",
             "desc": "Fund4u is a crowd funding platform which works on a reward-based model. The maximum fund raise amount can go up to $20,000 CAD.As a business model for this app only 1% commission fee is charged and if projects that have an unsuccessful campaign in raising money, the backers(or donors) get a full refund.",
             "github": "https://github.com/Akaul18/fund4u",
-            "website": ""
+            "website": "http://fund4u.ankurkaul.com"
         },
         {
             "id": 3,
@@ -37,7 +38,7 @@
             "shortDesc": "Services marketplace android app",
             "desc": "Bizcon is a data driven platform that connects customers and businesses with community driven features to help them link with small businesses and start a conversation.",
             "github": "https://github.com/Akaul18/bizcon",
-            "website": ""
+            "website": "http://bizcon.ankurkaul.com"
         },
         {
             "id": 5,
