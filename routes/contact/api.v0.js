@@ -24,7 +24,7 @@ router.post('/', (req, res) => {
         from: email,
         to: process.env.EMAIL,
         subject: "mail from ankurkaul.com",
-        text: `<h1>Name: ${name}</h1> 
+        html: `<h1>Name: ${name}</h1> 
                 <h2>Company: ${company}</h2>
                 <h2>email: ${email}</h2>
                 <h2>Contact number: ${contactNumber}</h2>
