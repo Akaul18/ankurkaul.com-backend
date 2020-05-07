@@ -1,0 +1,128 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "skill_type": "Client Tier",
+            "skills": [
+                {
+                    "id": 1,
+                    "skill_name": "HTML",
+                    "skill_proficiency": 9
+                },
+                {
+                    "id": 2,
+                    "skill_name": "CSS",
+                    "skill_proficiency": 9
+                },
+                {
+                    "id": 3,
+                    "skill_name": "Sass",
+                    "skill_proficiency": 8
+                },
+                {
+                    "id": 4,
+                    "skill_name": "JavaScript",
+                    "skill_proficiency": 9
+                },
+                {
+                    "id": 5,
+                    "skill_name": "Jquery",
+                    "skill_proficiency": 9
+                },
+                {
+                    "id": 6,
+                    "skill_name": "React.js",
+                    "skill_proficiency": 8
+                },
+                {
+                    "id": 7,
+                    "skill_name": "Redux",
+                    "skill_proficiency": 9
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "skill_type": "Server Tier",
+            "skills": [
+                {
+                    "id": 1,
+                    "skill_name": "Node.js",
+                    "skill_proficiency": 9
+                },
+                {
+                    "id": 2,
+                    "skill_name": "Core Java",
+                    "skill_proficiency": 7
+                },
+                {
+                    "id": 3,
+                    "skill_name": "PHP",
+                    "skill_proficiency": 7
+                },
+                {
+                    "id": 4,
+                    "skill_name": "Oauth2.0",
+                    "skill_proficiency": 7
+                },
+                {
+                    "id": 5,
+                    "skill_name": "Apache",
+                    "skill_proficiency": 7
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "skill_type": "Data Tier",
+            "skills": [
+                {
+                    "id": 1,
+                    "skill_name": "MySQL",
+                    "skill_proficiency": 8
+                },
+                {
+                    "id": 2,
+                    "skill_name": "MongoDB",
+                    "skill_proficiency": 8
+                },
+                {
+                    "id": 3,
+                    "skill_name": "Redis",
+                    "skill_proficiency": 7
+                },
+                {
+                    "id": 4,
+                    "skill_name": "Firebase",
+                    "skill_proficiency": 9
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "skill_type": "Other",
+            "skills": [
+                {
+                    "id": 1,
+                    "skill_name": "Aws(Ec2)",
+                    "skill_proficiency": 8
+                },
+                {
+                    "id": 2,
+                    "skill_name": "Git",
+                    "skill_proficiency": 8
+                },
+                {
+                    "id": 3,
+                    "skill_name": "Postman",
+                    "skill_proficiency": 9
+                },
+                {
+                    "id": 4,
+                    "skill_name": "Android",
+                    "skill_proficiency": 7
+                }
+            ]
+        }
+    ]
+}
