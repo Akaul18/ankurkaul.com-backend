@@ -25,6 +25,7 @@ router.post('/', (req, res) => {
         subject: "mail from ankurkaul.com",
         html: `<h1>Position: ${position}</h1> 
             <h2>Work type: ${workType}</h2>
+            <h2>from Hireme</h2>
             <h2>Email: ${email}</h2>
             <h2>Description of message: ${description}</h2>`
     };
