@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000
 
 app.use(bodyParser.json({ urlencoded: false }));
 
-app.use('/', express.static(path.join(__dirname, './public')));
+// app.use('/', express.static(path.join(__dirname, './public')));
 
 app.use('/api', require('./routes'))
 
