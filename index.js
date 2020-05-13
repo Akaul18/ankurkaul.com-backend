@@ -1,12 +1,15 @@
 const express = require('express');
 const cors = require('cors')
 const bodyParser = require('body-parser')
+const path = require('path')
 const app = express();
 app.use(cors())
 
 const PORT = process.env.PORT || 5000
 
 app.use(bodyParser.json({ urlencoded: false }));
+
+app.use('/', express.static(path.join(__dirname, './public')));
 
 app.use('/api', require('./routes'))
 
