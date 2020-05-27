@@ -1,12 +1,12 @@
-const express = require('express');
-const cors = require('cors')
-const bodyParser = require('body-parser')
-const requestIp = require('request-ip')
+const express = require("express");
+const cors = require("cors");
+const bodyParser = require("body-parser");
+const requestIp = require("request-ip");
 // const path = require('path')
 const app = express();
-app.use(cors())
+app.use(cors());
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000;
 
 app.use(bodyParser.json({ urlencoded: false }));
 
@@ -14,17 +14,18 @@ app.use(bodyParser.json({ urlencoded: false }));
 
 // inside middleware handler
 const ipMiddleware = function (req, res, next) {
-    const clientIp = requestIp.getClientIp(req);
-    console.log(`${req.method} request for '${req.url}' from ${clientIp}`);
-    next();
+  const clientIp = requestIp.getClientIp(req);
+  console.log(
+    `${req.method} request for '${req.url}' from ${clientIp} at ${new Date()}`,
+  );
+  next();
 };
 
-app.use('/api', ipMiddleware, require('./routes'))
+app.use("/api", ipMiddleware, require("./routes"));
 
 app.use((req, res, next) => {
-    res.status(404).send("Unknown request");
-    next();
+  res.status(404).send("Unknown request");
+  next();
 });
 
-
-app.listen(PORT, () => console.log(`listening at port ${PORT}`))
+app.listen(PORT, () => console.log(`listening at port ${PORT}`));
