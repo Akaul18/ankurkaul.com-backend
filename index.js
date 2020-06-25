@@ -2,17 +2,17 @@ const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const requestIp = require('request-ip')
-const ipfilter = require('express-ipfilter').IpFilter
+// const ipfilter = require('express-ipfilter').IpFilter
 
 // Blacklist the following IPs
-const ips = ['72.143.221.254']
+// const ips = ['72.143.221.254']
 
 // const path = require('path')
 const app = express()
 app.use(cors())
 
 // Create the server
-app.use(ipfilter(ips), { mode: 'deny' })
+// app.use(ipfilter(ips), { mode: 'deny' })
 
 const PORT = process.env.PORT || 5000
 
