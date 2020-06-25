@@ -12,7 +12,7 @@ const app = express()
 app.use(cors())
 
 // Create the server
-app.use(ipfilter(ips))
+app.use(ipfilter(ips), { mode: 'deny' })
 
 const PORT = process.env.PORT || 5000
 
