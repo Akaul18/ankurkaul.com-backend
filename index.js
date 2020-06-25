@@ -1,31 +1,42 @@
-const express = require("express");
-const cors = require("cors");
-const bodyParser = require("body-parser");
-const requestIp = require("request-ip");
+const express = require('express')
+const cors = require('cors')
+const bodyParser = require('body-parser')
+const requestIp = require('request-ip')
+const ipfilter = require('express-ipfilter').IpFilter
+
+// Blacklist the following IPs
+const ips = ['72.143.221.254', '178.154.200.225']
+
 // const path = require('path')
-const app = express();
-app.use(cors());
+const app = express()
+app.use(cors())
 
-const PORT = process.env.PORT || 5000;
+// Create the server
+app.use(ipfilter(ips))
 
-app.use(bodyParser.json({ urlencoded: false }));
+const PORT = process.env.PORT || 5000
+
+app.use(bodyParser.json({ urlencoded: false }))
 
 // app.use('/', express.static(path.join(__dirname, './public')));
 
 // inside middleware handler
 const ipMiddleware = function (req, res, next) {
-  const clientIp = requestIp.getClientIp(req);
-  console.log(
-    `${req.method} request for '${req.url}' from ${clientIp} at ${new Date()}`,
-  );
-  next();
-};
+    const clientIp = requestIp.getClientIp(req)
 
-app.use("/api", ipMiddleware, require("./routes"));
+    console.log(
+        `${req.method} request for '${
+            req.url
+        }' from ${clientIp} at ${new Date()}`
+    )
+    next()
+}
+
+app.use('/api', ipMiddleware, require('./routes'))
 
 app.use((req, res, next) => {
-  res.status(404).send("Unknown request");
-  next();
-});
+    res.status(404).send('Unknown request')
+    next()
+})
 
-app.listen(PORT, () => console.log(`listening at port ${PORT}`));
+app.listen(PORT, () => console.log(`listening at port ${PORT}`))
