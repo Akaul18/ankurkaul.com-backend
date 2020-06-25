@@ -5,7 +5,7 @@ const requestIp = require('request-ip')
 const ipfilter = require('express-ipfilter').IpFilter
 
 // Blacklist the following IPs
-const ips = ['72.143.221.254', '178.154.200.225']
+const ips = ['72.143.221.254']
 
 // const path = require('path')
 const app = express()
