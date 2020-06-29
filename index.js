@@ -27,7 +27,7 @@ const ipMiddleware = function (req, res, next) {
     console.log(
         `${req.method} request for '${
             req.url
-        }' from ${clientIp} at ${new Date()}`
+        }' from ${clientIp} at ${new Date().toUTCString()}`
     )
     next()
 }
