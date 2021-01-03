@@ -7,12 +7,12 @@
                 {
                     "id": 1,
                     "skill_name": "HTML",
-                    "skill_proficiency": 9
+                    "skill_proficiency": 8
                 },
                 {
                     "id": 2,
                     "skill_name": "CSS",
-                    "skill_proficiency": 9
+                    "skill_proficiency": 8
                 },
                 {
                     "id": 3,
@@ -26,18 +26,18 @@
                 },
                 {
                     "id": 5,
-                    "skill_name": "Jquery",
-                    "skill_proficiency": 9
+                    "skill_name": "AngularJS",
+                    "skill_proficiency": 7
                 },
                 {
                     "id": 6,
-                    "skill_name": "React.js",
+                    "skill_name": "Angular2+",
                     "skill_proficiency": 8
                 },
                 {
                     "id": 7,
-                    "skill_name": "Redux",
-                    "skill_proficiency": 9
+                    "skill_name": "React.js",
+                    "skill_proficiency": 7
                 }
             ]
         },
@@ -52,22 +52,22 @@
                 },
                 {
                     "id": 2,
-                    "skill_name": "Core Java",
-                    "skill_proficiency": 6
-                },
-                {
-                    "id": 3,
                     "skill_name": "PHP",
                     "skill_proficiency": 7
                 },
                 {
-                    "id": 4,
+                    "id": 3,
                     "skill_name": "Oauth2.0",
                     "skill_proficiency": 9
                 },
                 {
-                    "id": 5,
+                    "id": 4,
                     "skill_name": "Apache",
+                    "skill_proficiency": 7
+                },
+                {
+                    "id": 5,
+                    "skill_name": "Nginx",
                     "skill_proficiency": 7
                 }
             ]
@@ -94,7 +94,7 @@
                 {
                     "id": 4,
                     "skill_name": "Firebase",
-                    "skill_proficiency": 9
+                    "skill_proficiency": 8
                 }
             ]
         },
@@ -105,7 +105,7 @@
                 {
                     "id": 1,
                     "skill_name": "Aws(Ec2)",
-                    "skill_proficiency": 8
+                    "skill_proficiency": 7
                 },
                 {
                     "id": 2,
@@ -114,12 +114,7 @@
                 },
                 {
                     "id": 3,
-                    "skill_name": "Postman",
-                    "skill_proficiency": 9
-                },
-                {
-                    "id": 4,
-                    "skill_name": "Android",
+                    "skill_name": "Ionic",
                     "skill_proficiency": 7
                 }
             ]
