@@ -17,7 +17,7 @@
                 {
                     "id": 3,
                     "skill_name": "Sass",
-                    "skill_proficiency": 8
+                    "skill_proficiency": 7
                 },
                 {
                     "id": 4,
@@ -48,17 +48,17 @@
                 {
                     "id": 1,
                     "skill_name": "Node.js",
-                    "skill_proficiency": 9
+                    "skill_proficiency": 8
                 },
                 {
                     "id": 2,
                     "skill_name": "PHP",
-                    "skill_proficiency": 7
+                    "skill_proficiency": 6
                 },
                 {
                     "id": 3,
                     "skill_name": "Oauth2.0",
-                    "skill_proficiency": 9
+                    "skill_proficiency": 8
                 },
                 {
                     "id": 4,
@@ -68,6 +68,11 @@
                 {
                     "id": 5,
                     "skill_name": "Nginx",
+                    "skill_proficiency": 7
+                },
+                {
+                    "id": 6,
+                    "skill_name": "GraphQL",
                     "skill_proficiency": 7
                 }
             ]
@@ -79,12 +84,12 @@
                 {
                     "id": 1,
                     "skill_name": "MySQL",
-                    "skill_proficiency": 8
+                    "skill_proficiency": 7
                 },
                 {
                     "id": 2,
                     "skill_name": "MongoDB",
-                    "skill_proficiency": 8
+                    "skill_proficiency": 7
                 },
                 {
                     "id": 3,
