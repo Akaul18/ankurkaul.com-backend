@@ -2,6 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const requestIp = require('request-ip')
+const moment = require('moment')
 // const ipfilter = require('express-ipfilter').IpFilter
 
 // Blacklist the following IPs
@@ -25,9 +26,7 @@ const ipMiddleware = function (req, res, next) {
     const clientIp = requestIp.getClientIp(req)
 
     console.log(
-        `${req.method} request for '${
-            req.url
-        }' from ${clientIp} at ${new Date().toUTCString()}`
+        `${req.method} request for '${req.url}' from ${clientIp} at ${moment()}`
     )
     next()
 }
